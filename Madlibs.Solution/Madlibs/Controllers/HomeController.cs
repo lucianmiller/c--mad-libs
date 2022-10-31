@@ -11,7 +11,7 @@ namespace Madlibs.Controllers
       return View();
     }
 
-    [Route("/story")]
+    [Route("/madlibs")]
     public ActionResult Madlibs(string person1, string person2, string animal, string exclamation, string verb, string noun)
     {
       StoryInputs newStory = new StoryInputs();
